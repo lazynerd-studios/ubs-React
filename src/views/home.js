@@ -91,10 +91,8 @@ const Home = (props) => {
       </section>
       <section className="home-note">
         <h2 className="home-caption">
-        one-stop solution for professional video production services. Whether you need a 
-        captivating promotional video, a stunning corporate film, an engaging social media clip,
-         or any other video content, we've got you covered. With our expertise and creativity, 
-         we'll bring your ideas to life and deliver an unforgettable visual experience.
+        With our expertise and creativity, 
+        we'll bring your ideas to life and deliver an unforgettable visual experience.
         </h2>
       </section>
       <section className="home-statistics">
@@ -155,9 +153,7 @@ const Home = (props) => {
             <div className="slide-title">
               <span>State-of-the-Art Equipment:</span>
             </div>
-            <div className="slide-title">
-              <span>Integration</span>
-            </div>
+
           </div>
         </div>
       </section>
@@ -231,34 +227,7 @@ const Home = (props) => {
                     
                   </div>
                 </div>
-                <div data-role="current-banner" className="banner">
-                  <img
-                    alt="image"
-                    src="/slider-ecosystems-400h.png"
-                    className="home-image04"
-                  />
-                  <div className="home-content04">
-                    <div className="home-header08">
-                      <h3 className="home-heading05">Integration</h3>
-                      <p className="home-caption11">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </p>
-                    </div>
-                    <div className="home-more3">
-                      <span className="home-caption12">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon14">
-                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -303,13 +272,13 @@ new BlazeSlider(el, {
       </section>
       <section className="home-objectives">
         <div className="home-content05">
-          <span className="home-text15">Objectives</span>
+          <span className="home-text15">Services</span>
           <div className="home-objectives-list">
             <div className="objective">
-              <h3 className="home-text16">Growth</h3>
+              <h3 className="home-text16">Documentary Films:</h3>
               <p className="home-text17">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Share powerful stories and important 
+              messages through compelling documentary films.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -318,10 +287,10 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective home-objective1">
-              <h3 className="home-text18">Develop</h3>
+              <h3 className="home-text18">Event Coverage:</h3>
               <p className="home-text19">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Preserve the memories of your special occasions with expert event coverage, 
+              capturing all the important moments in a dynamic and emotive way.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -330,10 +299,10 @@ new BlazeSlider(el, {
               </p>
             </div>
             <div className="objective home-objective2">
-              <h3 className="home-text20">Optimize</h3>
+              <h3 className="home-text20">Corporate Videos:</h3>
               <p className="home-text21">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Showcase your brand, products, and services
+               with impactful corporate videos that leave a lasting impression on your audience.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',

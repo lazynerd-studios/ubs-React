@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>ubs</title>
+        <title>UBS Nigeria</title>
         <meta property="og:title" content="ubs" />
       </Helmet>
       <section className="home-hero">
@@ -34,7 +34,7 @@ const Home = (props) => {
               className="home-nav"
             >
               <div className="home-container1">
-                <img alt="image" src="/logo.svg" className="home-image" />
+                <img alt="image" src="/ubs.png" className="home-image" />
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -75,14 +75,14 @@ const Home = (props) => {
             <div className="home-header">
               <h1 className="home-heading">
                 <span>
-                  Face-to-face with
+                Unlock the Power of Visual 
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
-                <span className="home-text06">imagination</span>
+                <span className="home-text06">Storytelling</span>
                 <br></br>
               </h1>
             </div>
@@ -91,9 +91,10 @@ const Home = (props) => {
       </section>
       <section className="home-note">
         <h2 className="home-caption">
-          The most comprehensive lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna.
+        one-stop solution for professional video production services. Whether you need a 
+        captivating promotional video, a stunning corporate film, an engaging social media clip,
+         or any other video content, we've got you covered. With our expertise and creativity, 
+         we'll bring your ideas to life and deliver an unforgettable visual experience.
         </h2>
       </section>
       <section className="home-statistics">
@@ -146,13 +147,13 @@ const Home = (props) => {
           </p>
           <div className="home-slide-titles">
             <div className="slide-title">
-              <span>Metaverse</span>
+              <span>Creative Excellence:</span>
             </div>
             <div className="slide-title slide-title-active">
-              <span>Ecosystems</span>
+              <span>Tailored Solutions:</span>
             </div>
             <div className="slide-title">
-              <span>Development</span>
+              <span>State-of-the-Art Equipment:</span>
             </div>
             <div className="slide-title">
               <span>Integration</span>
@@ -173,23 +174,16 @@ const Home = (props) => {
                   />
                   <div className="home-content01">
                     <div className="home-header05">
-                      <h3 className="home-heading02">Metaverse</h3>
+                      <h3 className="home-heading02">Creative Excellence:</h3>
                       <p className="home-caption05">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      We pay attention to every detail to ensure your story is 
+                      conveyed in the most compelling and artistic way possible.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
                           }}
                         />
                       </p>
-                    </div>
-                    <div className="home-more">
-                      <span className="home-caption06">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon08">
-                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-                      </svg>
                     </div>
                   </div>
                 </div>
@@ -201,11 +195,10 @@ const Home = (props) => {
                   />
                   <div className="home-content02">
                     <div className="home-header06">
-                      <h3 className="home-heading03">Ecosystems</h3>
+                      <h3 className="home-heading03">Tailored Solutions:</h3>
                       <p className="home-caption07">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      No two projects are the same, and that's why we offer
+                       personalized solutions to meet your specific needs. 
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -213,12 +206,7 @@ const Home = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="home-more1">
-                      <span className="home-caption08">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon10">
-                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-                      </svg>
-                    </div>
+                  
                   </div>
                 </div>
                 <div data-role="current-banner" className="banner">
@@ -229,11 +217,10 @@ const Home = (props) => {
                   />
                   <div className="home-content03">
                     <div className="home-header07">
-                      <h3 className="home-heading04">Development</h3>
+                      <h3 className="home-heading04">State-of-the-Art Equipment:</h3>
                       <p className="home-caption09">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                      From 4K cameras to professional-grade lighting and audio, 
+                      we've got all the tools to make your content stand out.
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -241,12 +228,7 @@ const Home = (props) => {
                         />
                       </p>
                     </div>
-                    <div className="home-more2">
-                      <span className="home-caption10">Read More</span>
-                      <svg viewBox="0 0 1024 1024" className="home-icon12">
-                        <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-                      </svg>
-                    </div>
+                    
                   </div>
                 </div>
                 <div data-role="current-banner" className="banner">

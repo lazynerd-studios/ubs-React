@@ -18,14 +18,14 @@ const Home = (props) => {
           src="https://presentation-website-assets.teleporthq.io/templates/togthr/togthr-video.mp4"
           loop
           muted
-          poster="/hero-bg.png"
+          poster="/-SHD1541.jpg"
           preload="auto"
           autoPlay
           playsInline
           className="home-video"
         ></video>
         <header data-thq="thq-navbar" className="home-navbar">
-          <img alt="image" src="/logo.svg" className="home-branding" />
+          <img alt="image" src="/ubs.png" className="home-branding" />
           <div data-thq="thq-burger-menu" className="home-burger-menu"></div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div
@@ -40,21 +40,6 @@ const Home = (props) => {
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
-              </div>
-              <nav
-                data-thq="thq-mobile-menu-nav-links"
-                data-role="Nav"
-                className="home-nav1"
-              >
-                <span className="home-text">About</span>
-                <span className="home-text01">Features</span>
-                <span className="home-text02">Pricing</span>
-                <span className="home-text03">Team</span>
-                <span className="home-text04">Blog</span>
-              </nav>
-              <div className="home-container2">
-                <button className="home-login button">Login</button>
-                <button className="button">Register</button>
               </div>
             </div>
             <div className="home-icon-group">
@@ -98,33 +83,23 @@ const Home = (props) => {
       <section className="home-statistics">
         <div className="home-content">
           <div className="home-stat">
-            <h3 className="home-header01">$1.69M</h3>
-            <span className="home-caption01">
-              Consectetur adipiscing
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+            <h3 className="home-header01">Pre-Production</h3>
+          
           </div>
           <div className="home-stat1">
-            <h3 className="home-header02">Multiverse</h3>
-            <span className="home-caption02">Unde omnis iste</span>
+            <h3 className="home-header02">Production</h3>
           </div>
           <div className="home-stat2">
-            <h3 className="home-header03">500K</h3>
-            <span className="home-caption03">Accusantium doloremque</span>
+            <h3 className="home-header03">Post-Production</h3>
           </div>
         </div>
       </section>
       <section className="home-slider">
         <div className="home-header04">
           <h2 className="home-heading01">
-            <span>The first all-in-one verse </span>
-            <span className="home-text09">o</span>
+            <span>Your partner in visual </span>
             <span className="home-text10">
-              ptimized for growth.
+            storytelling!
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -135,8 +110,9 @@ const Home = (props) => {
         </div>
         <div className="home-selector">
           <p className="home-caption04">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          ——— As a production company, we’re responsible for developing and producing innovative
+           content for filming and distribution, 
+          focused on bringing blockbuster films and shows to the big screen.
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -186,7 +162,7 @@ const Home = (props) => {
                 <div data-role="current-banner" className="banner">
                   <img
                     alt="image"
-                    src="/slider-ecosystems-400h.png"
+                    src="/-SHD3107.jpg"
                     className="home-image02"
                   />
                   <div className="home-content02">
@@ -253,12 +229,15 @@ new BlazeSlider(el, {
         <div className="home-header-container1">
           <div className="home-header09">
             <h2 className="home-heading06">
-              Companies will dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore veniam and more opportunities.
+            Our services are geared for several markets including digital media,
+             television and affiliate industries.
             </h2>
             <p className="home-caption13">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            At Urban Brew Studios, we have a philosophy that requires us to set
+             global standards for interactive communication and outstanding performance
+              in the field of audio-visual production and brand marketing. 
+              We are a modest company committed to delivering high quality and brand
+               viable entertainment content.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -268,7 +247,7 @@ new BlazeSlider(el, {
           </div>
           <div className="home-button"></div>
         </div>
-        <img alt="image" src="/getstarted-800w.png" className="home-image05" />
+        <img alt="image" src="/-SHD2064.jpg" className="home-image05" />
       </section>
       <section className="home-objectives">
         <div className="home-content05">
@@ -357,72 +336,6 @@ new BlazeSlider(el, {
           <img alt="image" src="/growth-1400w.png" className="home-image06" />
         </div>
       </section>
-      <section className="home-experience">
-        <div className="home-images1">
-          <div className="home-square1"></div>
-          <img
-            alt="image"
-            src="/experience-1400w.png"
-            className="home-image07"
-          />
-        </div>
-        <div className="home-content07">
-          <div className="home-header12">
-            <div className="home-header-container2">
-              <div className="home-header13">
-                <h2 className="home-heading08">
-                  <span>A worlds class </span>
-                  <span className="home-text26">experience</span>
-                </h2>
-              </div>
-              <p className="home-caption16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-                eiusmod.
-              </p>
-            </div>
-            <div className="home-checkmarks">
-              <div className="home-check">
-                <div className="home-mark">
-                  <svg viewBox="0 0 1024 1024" className="home-icon16">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text27">
-                  Duis aute irure dolor in reprehenderit
-                </span>
-              </div>
-              <div className="home-check1">
-                <div className="home-mark1">
-                  <svg viewBox="0 0 1024 1024" className="home-icon18">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text28">Lorem ipsum dolor sit amet</span>
-              </div>
-              <div className="home-check2">
-                <div className="home-mark2">
-                  <svg viewBox="0 0 1024 1024" className="home-icon20">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text29">
-                  Voluptate velit esse cillum dolore eu fugiat nulla
-                </span>
-              </div>
-              <div className="home-check3">
-                <div className="home-mark3">
-                  <svg viewBox="0 0 1024 1024" className="home-icon22">
-                    <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
-                  </svg>
-                </div>
-                <span className="home-text30">
-                  Excepteur sint occaecat cupidatat non proident sunt in culpa
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="home-create">
         <div className="home-content08">
           <div className="home-header14">
@@ -456,82 +369,12 @@ new BlazeSlider(el, {
             <br></br>
           </h2>
         </div>
-        <div className="home-quotes">
-          <div className="home-quote">
-            <p className="home-quote1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author">
-              <span className="home-name">Joanna Smith</span>
-              <span className="home-location">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote2">
-            <p className="home-quote3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author1">
-              <span className="home-name1">Joanna Smith</span>
-              <span className="home-location1">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote4">
-            <p className="home-quote5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author2">
-              <span className="home-name2">Joanna Smith</span>
-              <span className="home-location2">Briville</span>
-            </div>
-          </div>
-          <div className="home-quote6">
-            <p className="home-quote7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="home-author3">
-              <span className="home-name3">Joanna Smith</span>
-              <span className="home-location3">Briville</span>
-            </div>
-          </div>
-        </div>
       </section>
       <div className="home-footer">
         <div className="home-content18">
           <div className="home-bottom">
             <span className="home-text41">
-              © 2022 togthr - All rights reserved
+              © 2022 UBS Nigeria - All rights reserved
             </span>
             <button data-role="scroll-top" className="home-button1 button">
               <img alt="image" src="/arrow.svg" className="home-image10" />

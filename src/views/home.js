@@ -333,7 +333,7 @@ new BlazeSlider(el, {
         </div>
         <div className="home-images">
           <div className="home-square"></div>
-          <img alt="image" src="/growth-1400w.png" className="home-image06" />
+          <img alt="image" src="-SHD2050.jpg" className="home-image06" />
         </div>
       </section>
       <section className="home-create">
